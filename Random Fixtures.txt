@@ -1,0 +1,18 @@
+REQUIREMENTS:
+
+1. Fixture List Name
+2. List Of Teams(Input)
+3. Button For Random Fixture Generation
+4. Output With 'VS' Fixtures
+
+
+ALGORITHM:
+
+1. START
+2. Store teams in An Array Or List
+3. On Button Clicked, Run The Random Fixtures Function
+4. Generate An Output Consisting Of Fixtures
+5. Generate again
+6. STOP
+
+

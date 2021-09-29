@@ -1,0 +1,121 @@
+body{
+    background: url(images/image4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+    margin: 10px;
+    padding: 20px;
+    color: darkblue;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+    margin: auto;
+    padding: 10px;
+}
+
+.container:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+.container:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.container:before,
+.container:after{
+    background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+
+.generate_text{
+    font-size: 45px
+}
+
+.generate_btn {
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.generate_btn:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+.fixture {
+    padding-top: 15px;
+}
+
+.team {
+    color: #fff;
+}
+
+#output{
+    margin: 25px auto;
+    font-size: 20px;
+    color: #fff;
+    font-size: 28px;
+}
+
+#output1{
+    margin: 25px auto;
+    font-size: 20px;
+    color: #fff;
+    font-size: 28px;
+}
+
+#output2{
+    margin: 25px auto;
+    font-size: 20px;
+    color: #fff;
+    font-size: 28px;
+}
+
