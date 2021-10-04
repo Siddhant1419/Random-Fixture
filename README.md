@@ -1,5 +1,5 @@
 # Random-Fixture
-An App created to optimize my game-time.
+This was one of my first few projects that I did and I found it from my old laptop. So, thought of posting it here. It's an app created to optimize my game-time.
 
 ## Objective:
 
