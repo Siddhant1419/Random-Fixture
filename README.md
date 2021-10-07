@@ -1,6 +1,6 @@
 # Random-Fixture
 
-### This web app was one of the first few projects, that I did, and I found it from my old laptop. So, why not post it here?. It's an app created to optimize my game-time.
+### This web app was one of the first few projects, that I did, and I found it from my old laptop. So, why not post it here? It's an app created to optimize my game-time.
 
 ## Why I made this?
 
